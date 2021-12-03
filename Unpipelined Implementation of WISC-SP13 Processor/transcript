@@ -1,0 +1,41 @@
+# vsim -c proc_hier_bench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 12:10:36 on Nov 24,2021
+# ** Warning: License feature 'msimpevsimvlog' will expire in 11 days.
+# Loading __work.proc_hier_bench
+# Loading __work.proc_hier
+# Loading __work.clkrst
+# Loading __work.proc
+# Loading __work.fetch
+# Loading __work.reg_16
+# Loading __work.memory2c
+# Loading __work.cla_16
+# Loading __work.cla_4
+# Loading __work.decode
+# Loading __work.mux4_1_3
+# Loading __work.control
+# Loading __work.rf
+# Loading __work.decoder3_8
+# Loading __work.execute
+# Loading __work.branch_sel
+# Loading __work.jump_sel
+# Loading __work.mux4_1_16
+# Loading __work.alu
+# Loading __work.shifter
+# Loading __work.mux2_1_16
+# Loading __work.memory
+# Loading __work.WB
+# Loading __work.dff
+# Loading __work.mux4_1
+# Loading __work.mux2_1
+# Loading __work.mux8_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'wb0'.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_bench/DUT/p0/wb0 File: proc.v Line: 126
+# log -howmany -rec /* 
+# 8976
+#  run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Note: $finish    : proc_hier_bench.v(93)
+#    Time: 58300 ns  Iteration: 1  Instance: /proc_hier_bench
+# End time: 12:10:37 on Nov 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
